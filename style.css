@@ -1,0 +1,49 @@
+body{
+	margin: 0; padding: 0; 
+}
+
+.navbar{
+	background: white; width: 100%; height: 120px;	
+}
+
+.sidebar{
+	background: white; height: 100%; width: 120px; position:fixed;
+		box-shadow: 0px 0px 14px grey;;top: 0;
+}
+
+.sidebar ul{
+	position: fixed; left: 0; float: left; margin: 0;
+	padding: 0;
+}
+.sidebar li{
+		list-style-type: none; padding-block: 1.5rem; color: grey;
+	padding-inline: 1.28rem; 
+}
+.sidebar i{
+	color: grey; padding-inline:14px;
+}
+.sidebar .active{
+	background: #BED6F3; border-left: 4px solid blue; 
+}
+
+.content{
+height: 83%; background: #f1f1f1;
+}
+.content .video{
+padding-left: 10rem; padding-block: 3rem;
+	font-size: 1.3rem; font-weight: bold; color: grey;
+}
+
+.content .insert{
+	background: white; width: 70%; margin-left: 19rem;margin-block: 3rem;
+	padding:.7rem; font-weight: bold; border-radius: 8px; color: grey;
+}
+
+.content p{
+	text-align: center; font-weight: bold;
+}
+
+.content .upload{
+	background: white; width: 10%; margin-left: 19rem;
+	padding: 4rem 1rem; border-radius: 5px ; text-align: center; font-weight: bold;
+}
